@@ -1,9 +1,23 @@
 import { Fragment } from "react";
+
 import "./App.css";
-import WelcomeProp from "./WelcomeProps";
-import Section from "./Section";
-import MyComponent from "./MyComponent";
-import Say from "./Say";
+
+import WelcomeProp from "./1. WelcomeProps";
+import Section from "./2. Section";
+import MyComponent from "./3. MyComponent";
+import Say from "./4. Say";
+import Clock from "./5. Clock";
+import EventPractice from "./6. onChange";
+import EventHandler from "./7. EventHandler";
+import FruitSelect from "./8. FruitSelect";
+import RadioButton from "./RadioButton";
+import Table from "./9. Table";
+import TableMap from "./10. TableMap";
+import CreateRef from "./11. UseRef";
+import UserList from "./12. UserList_1";
+import User from "./13. UserList_2";
+import UserList_3 from "./14. UserList_3";
+import UserList_4 from "./15. UserList_4";
 
 // const member = {
 //   name: "곰돌이 사육사",
@@ -66,7 +80,19 @@ function App() {
     // </>
 
     <>
-      <Say />
+      {/* <Say /> */}
+      {/* <Clock /> */}
+      {/* <EventPractice /> */}
+      {/* <EventHandler /> */}
+      {/* <FruitSelect /> */}
+      {/* <RadioButton /> */}
+      {/* <Table /> */}
+      {/* <TableMap /> */}
+      {/* <CreateRef /> */}
+      {/* <UserList_1 /> */}
+      {/* <UserList_2 /> */}
+      {/* <UserList_3 /> */}
+      <UserList_4 />
     </>
   );
 }
