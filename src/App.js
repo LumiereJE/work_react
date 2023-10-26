@@ -18,6 +18,11 @@ import UserList from "./12. UserList_1";
 import User from "./13. UserList_2";
 import UserList_3 from "./14. UserList_3";
 import UserList_4 from "./15. UserList_4";
+import UserList_5 from "./16. UserList_5";
+import TodoList from "./17. TodoList";
+import Counter from "./18. Hooks_1";
+import Info_form from "./19. 정보입력, 제출";
+import MemberInfo from "./20. Hooks_2";
 
 // const member = {
 //   name: "곰돌이 사육사",
@@ -92,7 +97,12 @@ function App() {
       {/* <UserList_1 /> */}
       {/* <UserList_2 /> */}
       {/* <UserList_3 /> */}
-      <UserList_4 />
+      {/* <UserList_4 /> */}
+      {/* <UserList_5 /> */}
+      {/* <TodoList /> */}
+      {/* <Counter /> */}
+      {/* <Info_form /> */}
+      <MemberInfo />
     </>
   );
 }

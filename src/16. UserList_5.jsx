@@ -1,9 +1,9 @@
 // 객체 배열에서 map()을 사용하는 방법 (컴포넌트 렌더링 포함)
-// 고유값 key 이용
+// 리액트에서 key는 컴포넌트 배열을 렌더링 했을 때 어떤 원소에 변동이 있었는지 알아내려고 사용
 
 import "./App.css";
 
-const UserList_4 = () => {
+const UserList_5 = () => {
   const users = [
     {
       id: 100,
@@ -22,8 +22,10 @@ const UserList_4 = () => {
     },
   ];
 
+  const seasons = ["새로운 봄", "활기찬 여름", "풍성한 가을", "새하얀 겨울"];
+  const newSeasons = seasons.map((e, index) => <li key={index}>{e}</li>);
+
   return (
-    // 특정한 조건문이 들어가야 한다면 못쓰는 방법임, 조건은 위에서 걸고 결과만 출력해야함
     <>
       <h1>천원짜리 변호사 직원 리스트</h1>{" "}
       {users &&
@@ -32,8 +34,10 @@ const UserList_4 = () => {
             <b>{user.userName}</b> <span>{user.email}</span>
           </div>
         ))}
+      <h1>계절 표시</h1>
+      <ul>{newSeasons}</ul>
     </>
   );
 };
 
-export default UserList_4;
+export default UserList_5;

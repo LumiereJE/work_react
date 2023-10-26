@@ -3,3 +3,18 @@
   color: darkgreen;
   font-weight: bold;
 }
+
+h1 {
+  color: royalblue;
+}
+.title-name {
+  color: rgb(255, 238, 0);
+  font-size: 2em;
+  font-weight: 900;
+  background-color: rgb(44, 97, 255);
+}
+.delete-guide {
+  color: red;
+  font-style: italic;
+  font-size: 0.8em;
+}
