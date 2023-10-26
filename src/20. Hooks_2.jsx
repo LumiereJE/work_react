@@ -17,6 +17,7 @@ const MemberInfo = () => {
   const [name, setName] = useState("");
   const [nickName, setNickName] = useState("");
 
+  // [] : 의존성 배열, 값을 넣지 않으면 mount시에만 호출 됨
   useEffect(() => {
     console.log("렌더링 완료");
     console.log(name, nickName);

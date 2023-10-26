@@ -23,6 +23,7 @@ import TodoList from "./17. TodoList";
 import Counter from "./18. Hooks_1";
 import Info_form from "./19. 정보입력, 제출";
 import MemberInfo from "./20. Hooks_2";
+import Counter2 from "./21. Hooks_3";
 
 // const member = {
 //   name: "곰돌이 사육사",
@@ -102,7 +103,8 @@ function App() {
       {/* <TodoList /> */}
       {/* <Counter /> */}
       {/* <Info_form /> */}
-      <MemberInfo />
+      {/* <MemberInfo /> */}
+      <Counter2 />
     </>
   );
 }
